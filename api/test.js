@@ -1,3 +1,4 @@
-export default function handler(req, res) {
+// api/test.js
+module.exports = (req, res) => {
   res.status(200).send('OK');
-}
+};
